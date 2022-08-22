@@ -1,0 +1,176 @@
+body {
+    background-color: #F3F3F3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.space {
+    padding: 20px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #1B1B1B;
+    color: #F3F3F3;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #F3F3F3;
+    transition: all .5s;
+}
+
+ul li a:hover {
+    color: #7f7f7f;
+}
+
+.icon {
+    width: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section img {
+    height: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.asideContent {
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideContent p {
+    color: #7f7f7f;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.quotes {
+    font-size: 30px;
+    color: #8F080D;
+}
+
+.btn{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    background-color: #8F080D;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all .6s;
+}
+
+.btn:hover {
+    background-color: #7f7f7f;
+}
+
+.sectionIframe {
+    background-color: #1B1B1B;
+}
+
+.lastTtile {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+
+.iframeContainer {
+    display: flex;
+    align-content: center;
+    align-items:center;
+    margin: 0 auto;
+    height: 300px;
+    width: 50%;
+    padding-bottom: 60px;
+}
+
+.topTitle {
+    color: #7f7f7f;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.cardContainer {
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    color: #1B1B1B;
+    box-shadow: 5px 2.5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.card p {
+    width: 90%;
+    text-align: justify;
+    color: #7f7f7f;
+}
+
+.btnEpisodio {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.cardImg {
+    width: 40px;
+}
+
+footer {
+    background-color: #1B1B1B;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
